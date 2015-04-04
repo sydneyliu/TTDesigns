@@ -1,9 +1,8 @@
 .card {
-	border-style: solid;
-    border-width: 1px;
+	
 	height:300px;
 	border-radius:4px;
-	box-shadow: 0.5px 0.5px 1px #888888;
+	box-shadow: 0.24px 0.5px 1.25px 1px #888888;
 }
 
 .controlcard {
@@ -11,9 +10,9 @@
 }
 
 .companycard {
-
+	margin:8px;
 }
 
 .companyLogo {
-	
+	max-width: 170px;
 }
