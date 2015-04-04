@@ -11,8 +11,19 @@
 
 .companycard {
 	margin:8px;
+
 }
 
 .companyLogo {
 	max-width: 170px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.centeredcards {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
 }
