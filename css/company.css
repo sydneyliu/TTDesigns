@@ -1,0 +1,15 @@
+.righter {
+	float:right;
+	margin-top: 100px;
+}
+
+.togglebuttons {
+	margin-bottom: 20px;
+}
+
+.applicantviewers {
+	height:700px;
+	border-radius:4px;
+	box-shadow: 0px 2px 5px rgba(0,0,0,.2);
+	float: right;
+}
