@@ -111,13 +111,9 @@ h1,h2, h3, p, div {
 	margin:16px 0px 0px 0px;
 }
 
-/*.inner-tab {*/
-	/*width: auto;*/
-	/*display: inline-block;*/
-	/*border-bottom-style:solid;*/
-	/*border-bottom-width: 3px;*/
-	/*border-color: rgba(0,0,0,0);*/
-/*}*/
+.inner-tab {
+	display: inline-block;
+}
 
 .inner-tab:hover{
 	border-bottom-color: white;
