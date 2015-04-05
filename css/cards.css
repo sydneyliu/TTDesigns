@@ -95,39 +95,38 @@ h1,h2, h3, p {
 }
 
 .tab-container {
-	height: 40px;
-	/border-style: solid;
-	/box-shadow: 1px 1px 1px 1px #888888;
-	/border-top-left-radius: 4px;
-	/border-top-right-radius: 4px;
-
+ 	/*display: inline-block;*/
 }
 
 .tab {
+	display: inline-block;
 	font-weight: bold;
 	font-size: 18px;
 	text-align:center;
 	font-family: Roboto;
 	color: white;
-	margin:10px 0px 0px 0px;
+	margin:13px 0px 0px 0px;
 }
 
 .inner-tab {
 	width: auto;
 	display: inline-block;
+	border-bottom-style:solid;
+	border-bottom-width: 3px;
+	border-color: rgba(0,0,0,0);
+
 }
 
 .inner-tab:hover{
-	border-bottom-style: solid;
-	border-bottom-width: 3px;
 	border-bottom-color: white;
+
 }
 
 .talent-logo {
 	z-index: 2;
 	max-width:17%;
-	margin-top:15px;
-	margin-right:150px;
+	margin-top:23px;
+	margin-left:23px;
 	position: fixed;
 }
 
@@ -146,7 +145,6 @@ input:focus {
 	outline: 0;
 
 }
-
 
 .glyphformatting {
 	text-align: right;
