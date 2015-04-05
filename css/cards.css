@@ -124,26 +124,44 @@ h1,h2, h3, p {
 
 .talent-logo {
 	z-index: 2;
-	max-width:17%;
-	margin-top:13px;
+	height:40px;
+	width:auto;
+	margin-top:20px;
 	margin-left:15px;
 	position: fixed;
 }
 
 input {
+	position: absolute;
 	width: 60%;
 	margin-top: 25px;
-	margin-left: 10px;
+	margin-left: 85px;
 	border-width: 0px;
-	font-size:20px;
+	font-size:16px;
 	font-family: Roboto;
 	font-style: italic;
 	display: inline-block;
+	color:#CCC;
 }
 
 input:focus {
 	outline: 0;
+}
 
+::-webkit-input-placeholder {
+   color: #CCC;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #CCC;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #CCC; 
+}
+
+:-ms-input-placeholder {  
+   color: #CCC;
 }
 
 .orange-container {
@@ -155,11 +173,11 @@ input:focus {
 }
 
 .orange-circle {
-	margin-left: 20px;
+	margin-left: 25px;
 	display: inline-block;
-	width: 35px;
-	height: 35px;
-	border-radius: 35px;
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
 	background-color:#F3AB1C; 
 	box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
@@ -184,9 +202,9 @@ input:focus {
 	margin-left: 25px;
 	margin-top: -30px;
 	display: inline-block;
-	width: 50px;
+	width: 40px;
 	height: auto;
-	border-radius: 60px;
+	border-radius: 40px;
 	display: inline-block;
 	box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }

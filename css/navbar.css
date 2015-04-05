@@ -10,7 +10,8 @@ nav{
 }
 
 .search-bar {
-	height: 80%;
+	height: 60px;
+	margin-bottom: 10px;
 	border-width: 0px 0px 1px 0;
 	border-style: solid;
 	color: #CCC;
@@ -24,13 +25,10 @@ nav{
 }
 
 .search-image {
+	position: absolute;
 	display: inline-block;
-	width:6%;
-	margin-left: 10%;
+	width:30px;
+	margin-top: 20px;
+	margin-left: 25px;
 	height: auto;
-}
-
-form {
-    width: 300px;
-    margin: 0 auto;
 }
