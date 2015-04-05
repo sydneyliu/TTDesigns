@@ -23,7 +23,20 @@ h1,h2, h3, p {
 
 .companycard {
 	margin:8px;
+	border-top-width:8px;
+	border-top-style: solid;
+}
 
+.engineer {
+	border-top-color: #CE000A; 
+}
+
+.business {
+	border-top-color: #5192E0;
+}
+
+.design {
+	border-top-color: #75D033;
 }
 
 .companyLogo {
