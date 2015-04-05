@@ -2,11 +2,18 @@
 	
 	height:300px;
 	border-radius:4px;
-	box-shadow: 0.24px 0.5px 1.25px 1px #888888;
+	box-shadow: 0px 2px 5px rgba(0,0,0,.2);
 }
 
 .controlcard {
-	height:600px;
+	height: 725px;
+	/border-right-style: solid;
+	box-shadow: 1px 0px 0px 0px #888888;
+	position: fixed;
+}
+
+.cardholder {
+	float:right;
 }
 
 .companycard {
@@ -16,6 +23,7 @@
 
 .companyLogo {
 	max-width: 170px;
+	max-height: 170px;
 	display: block;
 	margin-left: auto;
     margin-right: auto;
@@ -27,3 +35,24 @@
 	margin-left: auto;
     margin-right: auto;
 }
+
+
+.interndescriptions {
+	text-align: right;
+}
+
+.tab-container {
+height: 20px;
+border-style: solid;
+border-width: 1px;
+/box-shadow: 2px 2px 2px 2px #888888;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+
+}
+
+.tab {
+text-align:center;
+}
+
+body { padding-top: 70px; }

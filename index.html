@@ -17,19 +17,21 @@
         <link rel="stylesheet" href="css/cards.css">
     </head>
     <body>
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
 
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">Talent Trail</a>
+                 <!-- <img src="img/logo.png" style="max-width:20%; display:inline;"/> -->
             </div>
+
 
             <div class="navbar-collapse collapse" id="navbar-collapsible">
 
                 <form class="navbar-form">
                     <div class="form-group" style="display:inline;">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Find a company..." style="width: 800px">
+                            <input type="text" class="form-control" placeholder="Find a company..." style="width: 768px">
                             <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
                         </div>
                     </div>
@@ -40,38 +42,76 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
+     <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3 controlcard card"> <!--Control thing on the left-->
-              
+
+          <div class="col-md-3 controlcard"> <!--Control thing on the left-->
+              <div class = "tab-container">
+                <div class ="col-md-2 tab">All
+                </div>
+
+                <div class ="col-md-2 tab">Hot
+                </div>
+
+                <div class ="col-md-2 tab">New
+                </div>
+
+                <div class ="col-md-2 tab">Saved
+                </div>
+
+                <div class ="col-md-2 tab">Last
+                </div>
+              </div>
+
           </div>
 
           <!--Columns of cards-->
-              <div class="col-md-9 ">
-                  <div class="col-md-5 card companycard">
-                        <img class ="companyLogo" src="img/company/teespring.png" alt="TeeSpring" >
-                  </div>
+              <div class="col-md-9 cardholder">
+                <div class="col-md-offset-1 row">
+                    <div class="col-md-5  card companycard">
+                            <img class ="companyLogo" src="img/company/teespring.png" alt="TeeSpring" >
+                            <div class="interndescriptions">
+                                <h1>TeeSpring</h1>
+                                <h2>iOS Development Intern</h2>
+                            </div>
+                      </div>
 
-                  <div class="col-md-5 card companycard">
-                        <img class ="companyLogo" src="img/company/namecheap.png" alt="NameCheap" >
+                      <div class="col-md-5 card companycard">
+                            <img class ="companyLogo" src="img/company/namecheap.png" alt="NameCheap" >
+                      </div>
                   </div>
+                  
+                  <div class="col-md-offset-1 row">
+                    <div class="col-md-5  card companycard">
+                            <img class ="companyLogo" src="img/company/ibm.png" alt="IBM" >
+                      </div>
 
-                  <div class="col-md-5 card companycard">
+                      <div class="col-md-5 card companycard">
+                            <img class ="companyLogo" src="img/company/makesc.png" alt="MakeSchool" >
+                      </div>
                   </div>
+                  <div class="col-md-offset-1 row">
+                    <div class="col-md-5  card companycard">
+                            <img class ="companyLogo" src="img/company/mashape.png" alt="Mashape" >
+                      </div>
 
-                  <div class="col-md-5 card companycard">
+                      <div class="col-md-5 card companycard">
+                            <img class ="companyLogo" src="img/company/pebble.png" alt="Pebble" >
+                      </div>
                   </div>
+                  <div class="col-md-offset-1 row">
+                    <div class="col-md-5  card companycard">
+                            <img class ="companyLogo" src="img/company/thiel.png" alt="Thiel" >
+                      </div>
 
-                  <div class="col-md-5 card companycard">
-                  </div>
-
-                  <div class="col-md-5 card companycard">
+                      <div class="col-md-5 card companycard">
+                            <img class ="companyLogo" src="img/company/tinder.png" alt="Tinder" >
+                      </div>
                   </div>
               </div>
 
-
-
         </div>
+
     </div>
 </body>
 
