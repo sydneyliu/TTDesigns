@@ -1,3 +1,7 @@
+h1,h2, h3, p {
+	font-family: 'Roboto', sans-serif;
+}
+
 .card {
 	
 	height:300px;
@@ -40,16 +44,34 @@
 
 .interndescriptions {
 	text-align: right;
+	bottom:0;
+	right:0;
+	position:absolute;
+	padding: 15px;
 }
 
 .interndescriptions h1 {
 	font-size: 24px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 1.2;
+
 }
 
 .interndescriptions h2 {
 	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 1.2;
 }
 
+.interndescriptions h3 {
+	font-size: 16px;
+	color: gray;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 1.2;
+}
 
 .tab-container {
 	height: 40px;
