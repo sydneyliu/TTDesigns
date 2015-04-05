@@ -11,10 +11,15 @@
 	/border-right-style: solid;
 	box-shadow: 3px 0px 8px 0px rgba(0,0,0,.2);
 	position: fixed;
+
 }
 
 .cardholder {
 	float:right;
+}
+
+.content {
+	padding-top: 80px;
 }
 
 .companycard {
@@ -71,7 +76,7 @@
 
 .inner-tab {
 	width: auto;
-	display: inline;
+	display: inline-block;
 }
 
 .inner-tab:hover{
@@ -80,9 +85,29 @@
 	border-bottom-color: white;
 }
 
-.tabs-ribbon{
-	height:2px;
-	background-color: rgba(20,100,200,.7);
+.talent-logo {
+	z-index: 2;
+	max-width:17%;
+	margin-top:15px;
+	margin-right:150px;
+	position: fixed;
 }
+
+input {
+	width: 60%;
+	margin-top: 25px;
+	margin-left: 10px;
+	border-width: 0px;
+	font-size:20px;
+	font-family: Roboto;
+	font-style: italic;
+	display: inline-block;
+}
+
+input:focus {
+	outline: 0;
+
+}
+
 
 /*body { padding-top: 55px; }*/
