@@ -31,6 +31,7 @@ h1,h2, h3, p, div {
 
 .companycard {
 	margin: 15px 20px;
+	min-width: 350px;
 	padding:10px;
 	border-top-width:8px;
 	border-top-style: solid;
@@ -254,7 +255,7 @@ input:focus {
 
 .specifier-panel {
 	margin: 15px 15px;
-	width:90%;
+	width:250px;
 	height:450px;
 
 }
@@ -283,14 +284,15 @@ input:focus {
 	margin-top:4px;
 }
 
-ul {
-	list-style-type:none;
-}
-
-li {
-
-}
-
 input[type='checkbox'] {
-	margin-left: -20px;
+	margin:0;
+	position: relative;display:
+}
+
+.positions {
+	padding:10px 10px 10px 7px;
+}
+
+.position {
+	position: relative;
 }
