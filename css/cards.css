@@ -1,4 +1,4 @@
-h1,h2, h3, p {
+h1,h2, h3, p, div {
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -10,12 +10,12 @@ h1,h2, h3, p {
 }
 
 .controlcard {
-	background: #F3AB1C;
-	height: 750px;
-	/border-right-style: solid;
-	box-shadow: 3px 0px 8px 0px rgba(0,0,0,.2);
+	width:100%;
 	position: fixed;
-
+	background: #F3AB1C;
+	height: 60px;
+	box-shadow: 0px 3px 8px 0px rgba(0,0,0,.2);
+	position: fixed;
 }
 
 .cardholder {
@@ -98,27 +98,29 @@ h1,h2, h3, p {
  	/*display: inline-block;*/
 }
 
-.tab {
+.card-views {
 	display: inline-block;
 	font-weight: bold;
 	font-size: 18px;
 	text-align:center;
 	font-family: Roboto;
 	color: white;
-	margin:13px 0px 0px 0px;
+	padding: 0px 40px;
+	margin:16px 0px 0px 0px;
 }
 
-.inner-tab {
-	width: auto;
-	display: inline-block;
-	border-bottom-style:solid;
-	border-bottom-width: 3px;
-	border-color: rgba(0,0,0,0);
-
-}
+/*.inner-tab {*/
+	/*width: auto;*/
+	/*display: inline-block;*/
+	/*border-bottom-style:solid;*/
+	/*border-bottom-width: 3px;*/
+	/*border-color: rgba(0,0,0,0);*/
+/*}*/
 
 .inner-tab:hover{
 	border-bottom-color: white;
+	border-width: 0 0 3px 0;
+	border-style: solid;
 
 }
 
@@ -207,4 +209,42 @@ input:focus {
 	border-radius: 40px;
 	display: inline-block;
 	box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.view-tab {
+	position: relative;
+	margin: 18px 0px 18px 150px;
+	width: 250px;
+
+}
+
+.view-box-text {
+	display: inline;
+	color:white;
+	font-size: 18px;
+	font-weight: medium;
+}
+
+.slider-background {
+	display: inline-block;
+	border-radius: 13px;
+	width: 40px;
+	height: 13px;
+	background-color: rgb(200,200,200);
+}
+
+.slider {
+	width:20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color:white;
+	box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+	margin-top: -3px;
+	margin-left: 0px;
+	transition: margin-left 1s;
+
+}
+
+.slider:hover {
+	margin-left: 20px;
 }
