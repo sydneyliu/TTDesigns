@@ -1,3 +1,7 @@
+h1,h2, h3, p {
+	font-family: 'Roboto', sans-serif;
+}
+
 .card {
 	
 	height:300px;
@@ -24,15 +28,31 @@
 
 .companycard {
 	margin:8px;
+	border-top-width:8px;
+	border-top-style: solid;
+}
 
+.engineer {
+	border-top-color: #CE000A; 
+}
+
+.business {
+	border-top-color: #5192E0;
+}
+
+.design {
+	border-top-color: #75D033;
 }
 
 .companyLogo {
 	max-width: 170px;
-	max-height: 170px;
+	max-height: 100px;
 	display: block;
-	margin-left: auto;
-    margin-right: auto;
+	position:absolute;
+    top:25%;
+    left: 0;
+  	right: 0;
+  	margin: 0 auto;
     
 }
 
@@ -45,16 +65,34 @@
 
 .interndescriptions {
 	text-align: right;
+	bottom:0;
+	right:0;
+	position:absolute;
+	padding: 15px;
 }
 
 .interndescriptions h1 {
-	font-size: 24px;
+	font-size: 22px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 1.2;
+
 }
 
 .interndescriptions h2 {
-	font-size: 20px;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 1.2;
 }
 
+.interndescriptions h3 {
+	font-size: 14px;
+	color: gray;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 1.2;
+}
 
 .tab-container {
 	height: 40px;
@@ -110,4 +148,18 @@ input:focus {
 }
 
 
-/*body { padding-top: 55px; }*/
+.glyphformatting {
+	text-align: right;
+	bottom:0;
+	right:0;
+	position:absolute;
+	padding: 15px;
+	color: gray;
+	font-size: 28px;
+	opacity: 0.5;
+
+}
+
+.starformat {
+	top: 37px;
+}

@@ -19,8 +19,6 @@ nav{
 
 .search-container {
 	height:80px;
-	/background-color:red;
-	/position: relative;
 	margin-left:35%;
 	width:30%;
 }
@@ -30,4 +28,9 @@ nav{
 	width:6%;
 	margin-left: 10%;
 	height: auto;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
 }
