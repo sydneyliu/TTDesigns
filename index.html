@@ -17,20 +17,23 @@
         <link rel="stylesheet" href="css/cards.css">
         <link rel="stylesheet" href="css/navbar.css">
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"/>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     </head>
     <body>
 
     <img src="img/logo.png" class = "talent-logo"/>
 
       <nav>
-        <div class = "search-container">
+        <!-- <div class = "search-container navbar-collapse collapse"> -->
+        <div class = "search-container navbar-collapse collapse">
           <div class = "search-bar">
             <img class = "search-image" src="img/search.png"/>
             <input type="text" name="company" placeholder = "Find a position..."/>
 
           </div>
-
-        </div>
+          </div>
 
         <div class = "orange-container">
               <div class = "orange-circle">
@@ -50,38 +53,51 @@
     <div class = "utility-bar">
 
      <div class="container-fluid">
+
         <div class = "row">
 
-          <div class = "controlcard">
+          <div class="secondary-nav navbar">
+            <!-- <div class="navbar-header"> -->
+               <!-- <a class="toggle-style navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> -->
+                    <!-- <span class="icon-bar" style="background-color:white"></span> -->
+                    <!-- <span class="icon-bar" style=background-color:white></span> -->
+                    <!-- <span class="icon-bar" style=background-color:white></span> -->
+               <!-- </a> -->
+             <!-- </div> -->
+          <div class = "secondary-nav navbar-collapse collapse">
+
+          <ul class="nav">
+
            <div class = "col-md-8">
-
-              <div class = "card-views">
-                <div class = "inner-tab">ALL</div>
+              <div class = "row">
+              <div class = "card-views col-md-2">
+                <li class = "inner-tab">ALL</li>
               </div>
 
-              <div class = "card-views">
-                <div class = "inner-tab">HOT</div>
+              <div class = "card-views col-md-2">
+                <li class = "inner-tab">HOT</li>
               </div>
 
-              <div class = "card-views">
-                <div class = "inner-tab">NEW</div>
+              <div class = "card-views col-md-2">
+                <li class = "inner-tab">NEW</li>
               </div>
 
-              <div class = "card-views">
-                <div class = "inner-tab">APPLIED</div>
+              <div class = "card-views col-md-2">
+                <li class = "inner-tab">APPLIED</li>
               </div>
 
-              <div class = "card-views">
-                <div class = "inner-tab">MATCHED</div>
+              <div class = "card-views col-md-2">
+                <li class = "inner-tab">MATCHED</li>
               </div>
 
-              <div class = "card-views">
-                <div class = "inner-tab">FAVORITES</div>
+              <div class = "card-views col-md-2">
+                <li class = "inner-tab">FAVORITES</li>
+              </div>
               </div>
 
            </div>
            <div class = "col-md-4">
-              <div class = "view-tab">
+              <div class = "view-tab row">
 
                 <div class = "view-box-text" style="margin-right:20px">CARDS</div>
 
@@ -92,7 +108,10 @@
                 <div class = "view-box-text" style="margin-left:20px">LISTS</div>
               </div>
            </div>
+           </ul>
           </div>
+          </div>
+        
         </div>
       </div>
     </div>
