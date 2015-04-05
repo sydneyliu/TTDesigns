@@ -125,8 +125,8 @@ h1,h2, h3, p {
 .talent-logo {
 	z-index: 2;
 	max-width:17%;
-	margin-top:23px;
-	margin-left:23px;
+	margin-top:13px;
+	margin-left:15px;
 	position: fixed;
 }
 
@@ -146,6 +146,24 @@ input:focus {
 
 }
 
+.orange-container {
+	position: fixed;
+	display: inline-block;
+	width:200px;
+	margin-top: -40px;
+	margin-left: 700px;
+}
+
+.orange-circle {
+	margin-left: 20px;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border-radius: 35px;
+	background-color:#F3AB1C; 
+	box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
 .glyphformatting {
 	text-align: right;
 	bottom:0;
@@ -160,4 +178,15 @@ input:focus {
 
 .starformat {
 	top: 37px;
+}
+
+.user-icon {
+	margin-left: 25px;
+	margin-top: -30px;
+	display: inline-block;
+	width: 50px;
+	height: auto;
+	border-radius: 60px;
+	display: inline-block;
+	box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
