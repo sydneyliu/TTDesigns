@@ -4,7 +4,6 @@ h1,h2, h3, p, div {
 
 .card {
 	
-	width:45%;
 	display: inline-block;
 	height:280px;
 	border-radius:4px;
@@ -254,7 +253,9 @@ input:focus {
 }
 
 .specifier-panel {
-	margin: 15px 15px;
+	/margin: 15px;
+	/padding: 0px 10px;
+	margin: 15px 55px 15px 10px;
 	width:250px;
 	height:450px;
 
